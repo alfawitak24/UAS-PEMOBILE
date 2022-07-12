@@ -1,0 +1,26 @@
+.header{
+  margin-top: 60px;
+}
+.judulHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  color: #444;
+}
+.Header1{
+  position: absolute;
+  top: 20%;
+  font-size: 25px;
+}
+.Header2{
+  position: absolute;
+  top: 25%;
+  font-size: 100px;
+}
+.gambar{
+  width: 100%;
+  height: 500px;
+  margin-top: 80px;
+  object-fit: cover;
+}

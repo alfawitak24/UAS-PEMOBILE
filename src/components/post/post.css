@@ -1,0 +1,46 @@
+.post{
+  width: 385px;
+  margin: 0px, 25px, 40px, 25px;
+}
+.gambar{
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.postinfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.karakter{
+  font-family: 'Gulzar', serif;
+  font-style: 25px;
+  color: #be9656;
+}
+.judul{
+  font-family: 'Gulzar', serif;
+  font-style: 25px;
+  font-weight: 700;
+  margin-top: 15px;
+  cursor: pointer;
+  color: #000;
+}
+.waktu{
+  font-family: 'Gulzar', serif;
+  font-style: italic;
+  font-size: 15px;
+  color: #999;
+}
+.deskripsi{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-size: 15px;
+  color: #000;
+  margin-top: 15px;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}

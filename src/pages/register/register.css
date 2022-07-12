@@ -1,0 +1,35 @@
+.login{
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background:url(https://www.androidponsel.com/wp-content/uploads/2021/05/wallpaper-komputer-aesthetic.png);
+  background-size: cover;
+}
+.ljudul{
+  font-size: 60px;
+  color: black;
+  background-color: white;
+}
+.lForm{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.lForm > label {
+  margin: 10px 0;
+}
+.lInput{
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+.lrbutton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 10px;
+}
